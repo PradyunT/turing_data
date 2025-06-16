@@ -12,17 +12,20 @@ export function Header() {
             <span className="text-xl font-bold text-gray-900">Turing Data</span>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#services" className="text-gray-600 hover:text-gray-900 transition-colors">
+            <a href="#services" className="text-gray-600 hover:text-blue-600 transition-colors">
               Services
             </a>
-            <a href="#approach" className="text-gray-600 hover:text-gray-900 transition-colors">
+            <a href="#approach" className="text-gray-600 hover:text-blue-600 transition-colors">
               Approach
             </a>
-            <a href="#industries" className="text-gray-600 hover:text-gray-900 transition-colors">
+            <a href="#industries" className="text-gray-600 hover:text-blue-600 transition-colors">
               Industries
             </a>
-            <a href="#contact" className="text-gray-600 hover:text-gray-900 transition-colors">
+            <a href="#contact" className="text-gray-600 hover:text-blue-600 transition-colors">
               Contact
+            </a>
+            <a href="#blog" className="text-gray-600 hover:text-blue-600 transition-colors">
+              Blog
             </a>
           </nav>
           <Button className="bg-blue-600 hover:bg-blue-500 cursor-pointer">Get Started</Button>

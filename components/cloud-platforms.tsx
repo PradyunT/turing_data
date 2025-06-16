@@ -1,5 +1,5 @@
-import { Cloud } from "lucide-react"
-import { Badge } from "@/components/ui/badge"
+import { Cloud } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
 
 export function CloudPlatforms() {
   return (
@@ -8,8 +8,7 @@ export function CloudPlatforms() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Dual-Platform Expertise</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Deep expertise across both AWS and Azure platforms, ensuring optimal solutions for your existing
-            infrastructure.
+            Deep expertise across both AWS and Azure platforms, ensuring optimal solutions for your existing infrastructure.
           </p>
         </div>
 
@@ -24,7 +23,8 @@ export function CloudPlatforms() {
             </p>
             <div className="flex flex-wrap justify-center gap-2">
               <Badge variant="secondary">S3</Badge>
-              <Badge variant="secondary">Glue</Badge>
+              <Badge variant="secondary">Glue/Lake Formation</Badge>
+              <Badge variant="secondary">Snowflake</Badge>
               <Badge variant="secondary">Redshift</Badge>
               <Badge variant="secondary">Bedrock</Badge>
               <Badge variant="secondary">SageMaker</Badge>
@@ -50,5 +50,5 @@ export function CloudPlatforms() {
         </div>
       </div>
     </section>
-  )
+  );
 }

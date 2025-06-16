@@ -7,7 +7,7 @@ export function Hero() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-            Reimagine your business with <span className="bg-blue-600 bg-clip-text text-transparent"> Big Data & AI</span>
+            Reimagine your business with <span className="bg-blue-600 bg-clip-text text-transparent"> [Big] Data & AI</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 leading-relaxed">
             We empower businesses to unlock the full potential of their data through cutting-edge big data solutions and agentic

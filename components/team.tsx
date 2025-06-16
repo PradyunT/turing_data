@@ -1,6 +1,7 @@
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { FaLinkedin } from "react-icons/fa";
 
 export function Team() {
   return (
@@ -14,73 +15,79 @@ export function Team() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
-          <Card className="text-center border-0 shadow-lg hover:shadow-xl transition-shadow">
+          <Card className="text-center border-0 shadow-lg hover:shadow-xl transition-shadow gap-4">
             <CardHeader>
               <div className="w-24 h-24 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-white font-bold text-2xl">JD</span>
+                <span className="text-white font-bold text-2xl">RC</span>
               </div>
-              <CardTitle className="text-2xl mb-2">John Doe</CardTitle>
+              <CardTitle className="text-2xl mb-2">Ravi Chikkam</CardTitle>
               <CardDescription className="text-lg text-purple-600 font-semibold mb-4">
-                CEO & Founding Partner
+                Big Data & AI Technology Advisor
               </CardDescription>
             </CardHeader>
             <CardContent>
               <p className="text-gray-600 mb-6">
-                Former VP of Data Strategy at Fortune 500 financial services company. 15+ years leading enterprise data
-                transformations and building high-performing analytics teams. Expert in translating complex technical
-                solutions into business value.
+                Ravi Chikkam is a seasoned technology executive with 25+ years of leadership at firms like JPMorgan Chase, AWS,
+                and Microsoft. Ravi specializes in architecting petabyte-scale data platforms and has a proven record of building
+                world-class data governance and engineering teams. Driven by a passion for AI, he is a recent graduate of
+                Stanford's Artificial Intelligence Program.
               </p>
               <div className="flex flex-wrap justify-center gap-2 mb-6">
                 <Badge variant="outline">Business Strategy</Badge>
-                <Badge variant="outline">Enterprise Sales</Badge>
-                <Badge variant="outline">Data Governance</Badge>
-                <Badge variant="outline">Team Leadership</Badge>
+                <Badge variant="outline">AWS</Badge>
+                <Badge variant="outline">Data Architecture/Governance</Badge>
+                <Badge variant="outline">Artificial Intelligence</Badge>
               </div>
               <div className="text-sm text-gray-500">
-                <p>MBA, Wharton • BS Computer Science, MIT</p>
+                <p>AI Program, Stanford • Quantum Computing Program, MIT</p>
+                <a href="https://www.linkedin.com/in/chikkamravi" className="text-purple-600 hover:underline text-xl">
+                  <FaLinkedin className="inline" />
+                </a>
               </div>
             </CardContent>
           </Card>
 
-          <Card className="text-center border-0 shadow-lg hover:shadow-xl transition-shadow">
+          <Card className="text-center border-0 shadow-lg hover:shadow-xl transition-shadow gap-4">
             <CardHeader>
               <div className="w-24 h-24 bg-gradient-to-br from-pink-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-white font-bold text-2xl">JS</span>
+                <span className="text-white font-bold text-2xl">PK</span>
               </div>
-              <CardTitle className="text-2xl mb-2">Jane Smith</CardTitle>
+              <CardTitle className="text-2xl mb-2">Praveen Kurapati</CardTitle>
               <CardDescription className="text-lg text-pink-600 font-semibold mb-4">
-                CTO & Founding Partner
+                Big Data & AI Technology Advisor
               </CardDescription>
             </CardHeader>
             <CardContent>
               <p className="text-gray-600 mb-6">
-                Former Principal Solutions Architect at AWS and Azure consulting partner. Deep expertise in cloud-native
-                data architectures, MLOps, and generative AI implementations. Led 50+ enterprise cloud migrations and AI
-                pilot programs.
+                As a senior engineering leader at Microsoft, Praveen managed teams for core Azure Data Warehouse products like
+                Synapse Analytics and Azure Arc. He has a history of shipping enterprise-scale data platforms, including a
+                pioneering system at Windows Live that processed billions of daily events. Praveen combines deep cloud
+                architecture expertise with a passion for leveraging GenAI.
               </p>
               <div className="flex flex-wrap justify-center gap-2 mb-6">
                 <Badge variant="outline">Cloud Architecture</Badge>
                 <Badge variant="outline">Machine Learning</Badge>
-                <Badge variant="outline">AWS & Azure</Badge>
+                <Badge variant="outline">Azure</Badge>
                 <Badge variant="outline">GenAI/LLMs</Badge>
               </div>
               <div className="text-sm text-gray-500">
-                <p>MS Data Science, Stanford • BS Engineering, Carnegie Mellon</p>
+                <p>MS Computer Science, Indian Statistical Institute</p>
+                <a
+                  href="https://www.linkedin.com/in/praveen-kumar-kurapati-33ab4712/"
+                  className="text-purple-600 hover:underline text-xl">
+                  <FaLinkedin className="inline" />
+                </a>
               </div>
             </CardContent>
           </Card>
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-gray-600 mb-6">
-            Our lean, founder-led approach ensures every client receives direct access to senior-level expertise
-            throughout their engagement.
-          </p>
-          <Button variant="outline" className="border-purple-600 text-purple-600 hover:bg-purple-50">
+          <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 hover:text-blue-500">
             Join Our Team
           </Button>
         </div>
       </div>
     </section>
-  )
+  );
 }

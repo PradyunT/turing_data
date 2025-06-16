@@ -41,7 +41,7 @@ export function Contact() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  Austin, Texas
+                  Frisco, Texas
                   <br />
                   Remote-First
                 </p>
