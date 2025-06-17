@@ -30,7 +30,7 @@ export function Team() {
                 Ravi Chikkam is a seasoned technology executive with 25+ years of leadership at firms like JPMorgan Chase, AWS,
                 and Microsoft. Ravi specializes in architecting petabyte-scale data platforms and has a proven record of building
                 world-class data governance and engineering teams. Driven by a passion for AI, he is a recent graduate of
-                Stanford's Artificial Intelligence Program.
+                Stanford&apos;s Artificial Intelligence Program.
               </p>
               <div className="flex flex-wrap justify-center gap-2 mb-6">
                 <Badge variant="outline">Business Strategy</Badge>
