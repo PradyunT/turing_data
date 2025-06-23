@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { FaLinkedin } from "react-icons/fa";
+import Image from "next/image";
 
 export function Team() {
   return (
@@ -17,9 +18,13 @@ export function Team() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-4xl mx-auto">
           <Card className="text-center border-0 shadow-lg hover:shadow-xl transition-shadow gap-4">
             <CardHeader>
-              <div className="w-24 h-24 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-white font-bold text-2xl">RC</span>
-              </div>
+              <Image
+                className="w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 drop-shadow-[0_4px_6px_rgba(37,99,235,0.4)]"
+                src="/ravi_chikkam.jpg"
+                alt="Ravi Chikkam"
+                width={96}
+                height={96}
+              />
               <CardTitle className="text-2xl mb-2">Ravi Chikkam</CardTitle>
               <CardDescription className="text-lg text-purple-600 font-semibold mb-4">
                 Big Data & AI Technology Advisor
@@ -49,9 +54,13 @@ export function Team() {
 
           <Card className="text-center border-0 shadow-lg hover:shadow-xl transition-shadow gap-4">
             <CardHeader>
-              <div className="w-24 h-24 bg-gradient-to-br from-pink-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="text-white font-bold text-2xl">PK</span>
-              </div>
+              <Image
+                className="w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 drop-shadow-[0_4px_6px_rgba(37,99,235,0.4)]"
+                src="/praveen_kurapati.jpg"
+                alt="Praveen Kurapati"
+                width={96}
+                height={96}
+              />
               <CardTitle className="text-2xl mb-2">Praveen Kurapati</CardTitle>
               <CardDescription className="text-lg text-pink-600 font-semibold mb-4">
                 Big Data & AI Technology Advisor
