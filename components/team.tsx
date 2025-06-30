@@ -55,7 +55,7 @@ export function Team() {
           <Card className="text-center border-0 shadow-lg hover:shadow-xl transition-shadow gap-4">
             <CardHeader>
               <Image
-                className="w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 drop-shadow-[0_4px_6px_rgba(37,99,235,0.4)] object-cover"
+                className="w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-6 drop-shadow-[0_4px_6px_rgba(37,99,235,0.4)] object-cover object-top"
                 src="/praveen_kurapati.jpg"
                 alt="Praveen Kurapati"
                 width={96}
