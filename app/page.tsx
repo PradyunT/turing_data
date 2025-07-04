@@ -3,6 +3,7 @@ import { Services } from "@/components/services";
 import { Engagement } from "@/components/engagement";
 import { Industries } from "@/components/industries";
 import { Team } from "@/components/team";
+import { Clients } from "@/components/clients";
 import { CloudPlatforms } from "@/components/cloud-platforms";
 import { CTA } from "@/components/cta";
 import { Contact } from "@/components/contact";
@@ -16,6 +17,7 @@ export default function HomePage() {
       <Hero />
       <Services />
       <Engagement />
+      <Clients />
       <Industries />
       <Team />
       <CloudPlatforms />

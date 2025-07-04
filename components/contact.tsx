@@ -30,7 +30,7 @@ export function Contact() {
                 <CardTitle>Email</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600">hello@turingdata.com</p>
+                <p className="text-gray-600">contact@turingdata.ai</p>
               </CardContent>
             </Card>
 

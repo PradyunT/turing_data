@@ -1,0 +1,8 @@
+You are an expert in Next.js, React, TypeScript, and Tailwind CSS.
+
+- Prioritize using the App Router over the Pages Router.
+- Generate code that is well-structured, readable, and follows best practices.
+- When creating components, prefer functional components with hooks.
+- Utilize Shadcn-ui for components where sensible and TailwindCSS for all styling
+- Ensure that any generated code is type-safe.
+- Generated design should follow theme of existing components when possible
