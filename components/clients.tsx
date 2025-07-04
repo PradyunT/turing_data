@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState, useRef } from "react";
-import { Building2, Users, TrendingUp } from "lucide-react";
+import { Building2 } from "lucide-react";
 import Image from "next/image";
 
 // Client logo images - replace these with your actual client logos
