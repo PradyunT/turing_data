@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export function Header() {
   return (
@@ -6,9 +7,7 @@ export function Header() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">T</span>
-            </div>
+            <Image src="/turing-data-logo.png" alt="Turing Data Logo" width={100} height={50}/>
             <span className="text-xl font-bold text-gray-900">Turing Data</span>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
@@ -24,7 +23,7 @@ export function Header() {
             <a href="#contact" className="text-gray-600 hover:text-blue-600 transition-colors">
               Contact
             </a>
-            <a href="#blog" className="text-gray-600 hover:text-blue-600 transition-colors">
+            <a href="/blog" className="text-gray-600 hover:text-blue-600 transition-colors">
               Blog
             </a>
           </nav>
