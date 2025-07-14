@@ -7,8 +7,8 @@ export function Header() {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <Image src="/turing-data-logo.png" alt="Turing Data Logo" width={100} height={50}/>
-            <span className="text-xl font-bold text-gray-900">Turing Data</span>
+            <Image src="/turing-data-logo.png" alt="Turing Data Logo" width={55} height={55}/>
+            <span className="ml-2 text-xl font-bold text-gray-900">Turing Data</span>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#services" className="text-gray-600 hover:text-blue-600 transition-colors">
