@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -108,15 +107,6 @@ export function Team() {
               </div>
             </CardContent>
           </Card>
-        </div>
-
-        <div className="text-center mt-12">
-          <Button
-            variant="outline"
-            className="border-blue-600 text-blue-600 hover:bg-blue-50 hover:text-blue-500"
-          >
-            Join Our Team
-          </Button>
         </div>
       </div>
     </section>

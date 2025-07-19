@@ -6,7 +6,7 @@ export function Hero() {
     <section className="py-20 bg-white relative overflow-hidden">
       {/* Background Image with Darkening Filter */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat brightness-20"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat brightness-30"
         style={{
           backgroundImage: `url('/bg.jpg')`,
         }}
