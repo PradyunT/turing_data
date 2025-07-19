@@ -78,7 +78,7 @@ export function Services() {
           <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-300 gap-2">
             <CardHeader>
               <div className="flex items-start gap-8">
-                <div className="w-20 h-20 bg-gradient-to-br from-pink-500 to-pink-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                <div className="w-20 h-20 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
                   <Brain className="h-12 w-12 text-white" />
                 </div>
                 <div className="flex-grow">

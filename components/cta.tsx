@@ -12,9 +12,11 @@ export function CTA() {
             consultation to get started with your AI readiness assessment.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="border border-white bg-blue-600 hover:bg-blue-500 cursor-pointer">
-              Schedule Consultation
-              <ArrowRight className="ml-2 h-5 w-5" />
+            <Button asChild size="lg" className="border border-white bg-blue-600 hover:bg-blue-500 cursor-pointer">
+              <a href="mailto:contact@turingdata.ai">
+                Contact Us
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
             </Button>
           </div>
         </div>

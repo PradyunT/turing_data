@@ -27,7 +27,9 @@ export function Header() {
               Blog
             </a>
           </nav>
-          <Button className="bg-blue-600 hover:bg-blue-500 cursor-pointer">Get Started</Button>
+          <Button asChild className="bg-blue-600 hover:bg-blue-500 cursor-pointer">
+            <a href="mailto:contact@turingdata.ai">Get Started</a>
+          </Button>
         </div>
       </div>
     </header>

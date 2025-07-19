@@ -1,5 +1,11 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { FaLinkedin } from "react-icons/fa";
 import Image from "next/image";
@@ -9,9 +15,12 @@ export function Team() {
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Leadership Team</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+            Our Leadership Team
+          </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Founded by industry veterans with deep expertise in enterprise data architecture and AI implementation.
+            Founded by industry veterans with deep expertise in enterprise data
+            architecture and AI implementation.
           </p>
         </div>
 
@@ -27,15 +36,18 @@ export function Team() {
               />
               <CardTitle className="text-2xl mb-2">Ravi Chikkam</CardTitle>
               <CardDescription className="text-lg text-purple-600 font-semibold mb-4">
-                Big Data & AI Technology Advisor
+                Chief Technology Officer
               </CardDescription>
             </CardHeader>
             <CardContent>
               <p className="text-gray-600 mb-6">
-                Ravi Chikkam is a seasoned technology executive with 25+ years of leadership at firms like JPMorgan Chase, AWS,
-                and Microsoft. Ravi specializes in architecting petabyte-scale data platforms and has a proven record of building
-                world-class data governance and engineering teams. Driven by a passion for AI, he is a recent graduate of
-                Stanford&apos;s Artificial Intelligence Program.
+                Ravi Chikkam is a seasoned technology executive with 25+ years
+                of leadership at firms like JPMorgan Chase, AWS, and Microsoft.
+                Ravi specializes in architecting petabyte-scale data platforms
+                and has a proven record of building world-class data governance
+                and engineering teams. Driven by a passion for AI, he is a
+                recent graduate of Stanford&apos;s Artificial Intelligence
+                Program.
               </p>
               <div className="flex flex-wrap justify-center gap-2 mb-6">
                 <Badge variant="outline">Business Strategy</Badge>
@@ -45,7 +57,10 @@ export function Team() {
               </div>
               <div className="text-sm text-gray-500">
                 <p>AI Program, Stanford • Quantum Computing Program, MIT</p>
-                <a href="https://www.linkedin.com/in/chikkamravi" className="text-purple-600 hover:underline text-xl">
+                <a
+                  href="https://www.linkedin.com/in/chikkamravi"
+                  className="text-purple-600 hover:underline text-xl"
+                >
                   <FaLinkedin className="inline" />
                 </a>
               </div>
@@ -68,10 +83,13 @@ export function Team() {
             </CardHeader>
             <CardContent>
               <p className="text-gray-600 mb-6">
-                As a senior engineering leader at Microsoft, Praveen managed teams for core Azure Data Warehouse products like
-                Synapse Analytics and Azure Arc. He has a history of shipping enterprise-scale data platforms, including a
-                pioneering system at Windows Live that processed billions of daily events. Praveen combines deep cloud
-                architecture expertise with a passion for leveraging GenAI.
+                As a senior engineering leader at Microsoft, Praveen managed
+                teams for core Azure Data Warehouse products like Synapse
+                Analytics and Azure Arc. He has a history of shipping
+                enterprise-scale data platforms, including a pioneering system
+                at Windows Live that processed billions of daily events. Praveen
+                combines deep cloud architecture expertise with a passion for
+                leveraging GenAI.
               </p>
               <div className="flex flex-wrap justify-center gap-2 mb-6">
                 <Badge variant="outline">Cloud Architecture</Badge>
@@ -83,7 +101,8 @@ export function Team() {
                 <p>MS Computer Science, Indian Statistical Institute</p>
                 <a
                   href="https://www.linkedin.com/in/praveen-kumar-kurapati-33ab4712/"
-                  className="text-purple-600 hover:underline text-xl">
+                  className="text-purple-600 hover:underline text-xl"
+                >
                   <FaLinkedin className="inline" />
                 </a>
               </div>
@@ -92,7 +111,10 @@ export function Team() {
         </div>
 
         <div className="text-center mt-12">
-          <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 hover:text-blue-500">
+          <Button
+            variant="outline"
+            className="border-blue-600 text-blue-600 hover:bg-blue-50 hover:text-blue-500"
+          >
             Join Our Team
           </Button>
         </div>
